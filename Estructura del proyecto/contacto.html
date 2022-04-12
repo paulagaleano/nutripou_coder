@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUTRIPOU</title>
+    <link rel="stylesheet" href="css/styles.css">  
+</head>
+
+<body>
+
+    <header class="header"> <!-- HEADER -->
+        <div>
+            <div class="logo">
+                <a href="index.html"><img src="./image/Logo.png" alt="logo" class="size"></a>
+            </div>
+            <nav> <!-- NAVEGADOR -->   
+                <ul class="navBar"> 
+                    <li class="flex__item"> <a href="index.html">INICIO</a></li>
+                    <li class="flex__item"> <a href="./Nosotros.html">NOSOTROS</a></li>
+                    <li class="flex__item"> <a href="./Temas.html">TEMAS</a></li> 
+                    <li class="flex__item"> <a href="./Tienda.html">TIENDA</a></li>
+                    <li class="flex__item"> <a href="./contacto.html">CONTACTOS</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="boxcontact"> 
+            <h2> CONTACTANOS </h2>
+            <div class="boxcontactname">
+                <label for="fname"></label>
+                <input type="text" id="fname" name="firstname" placeholder="Tu nombre">
+            </div>
+            <div class="boxcontactlastname">
+                <label for="lname"></label>
+                <input type="text" id="lname" name="lastname" placeholder="Tu apellido">
+            </div>
+            <div class="boxcontacttema">
+                <label for="subject"></label>
+                <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+            </div>
+            <div class="boxcontactenviar">
+                <input type="submit" value="Enviar" class="boxcontact__enviar--button">
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer class="footer"> <!-- FOOTER -->   
+        <div class="socials">
+            <div>
+                <ul class="redes"> <!-- REDES SOCIALES -->
+                    <li> <a href="https://www.facebook.com/nutricion.salud.arg" target="_blank"><img src="./image/facebook.png"></a></li>
+                    <li> <a href="https://twitter.com/nutricionsan" target="_blank"><img src="./image/twitter.png"> </a></li>
+                    <li> <a href="https://www.youtube.com/channel/UCkECHMPcT3kn3VPRQRuRbwQ/videos" target="_blank"><img src="./image/youtube.png"> </a></li>
+                    <li> <a href="https://sk.pinterest.com/saludnutricionY/_created/" target="_blank"><img src="./image/pinterest.png"></a></li>
+                </ul>
+            </div>
+            <div class="diremail">  <!-- DIRECCION Y MAIL -->
+                <img src="./image/Direccion.png" alt="direccion"> 
+                <h2> Viamonte 2146, Capital Federal, Argentina </h2>
+                <img src="./image/Mail.png" alt="mail">
+                <h2> nutricionpou@gmail.com </h2>
+            </div>
+            <div class="update"> <!-- RECIBIR ACTUALIZACIONES -->
+                <h2> Registrate para recibir actualizaciones </h2>
+                <form action="">
+                    <label for="mail"></label>
+                    <br>
+                    <input type="email" id="mail" placeholder="Ingrese correo electronico" required>
+                </form>
+                <br>
+                <input type="submit" value="Registrar">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
