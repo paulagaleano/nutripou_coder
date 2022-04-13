@@ -68,6 +68,8 @@ a {
 .box {
     display: flex;
     justify-content: space-around;
+    animation: slideInUp;
+    animation-duration: 4s;
 }
 
 iframe {
