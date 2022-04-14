@@ -34,27 +34,9 @@ html, body {
 
 /* NAVEGADOR */
 
-.navBar {                                              
-    display: flex; 
-    background: #241f23; 
-    justify-content: center;
-    padding: 10px 16px;
+.navbar-nav {
+    font-size: 20px;
     font-family: 'Anton', sans-serif; 
-    font-size: 30px;
-}
-
-.navBar li {
-    display: inline-block;
-    padding: 0px 50px;
-} 
-
-.navBar a:hover {
-    background-color: #BF0449;
-}
-
-a {
-    text-decoration: none; 
-    color: white;
 }
 
 /* MAIN - IMAGEN SLIDE EN JV */
