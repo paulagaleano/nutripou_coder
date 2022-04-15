@@ -6,8 +6,7 @@
 }
 
 body {
-    background: rgb(233,225,220) no-repeat;
-    background: linear-gradient(184deg, rgba(233,225,220,1) 0%, rgba(250,255,209,1) 36%, rgba(255,255,255,1) 100%);
+    background: white;
     display: grid;
     grid-template-rows: auto;
 }
@@ -88,8 +87,7 @@ p {
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 200px;
     grid-gap: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    list-style-type: none;
 }
 
 .diremail img {
@@ -102,6 +100,16 @@ p {
     align-items: center;
     margin-bottom: 27px;
     margin-top:20px;
+}
+
+.diremail h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.update h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 .redes img {
@@ -283,39 +291,24 @@ p {
     text-shadow: 2px 2px 4px black;
 }
 
-.page-content {
+.cardtienda {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     width: 50px;
-    margin-left: 600px;
+    margin-left: 300px;
 }
 
-.product-container {
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 
-    7.4px 14.9px 14.9px hsl(0deg 0% 0% / 0.27);
-    margin: 15px;
-    padding: 10px;
+.cardtienda .card {
+    margin: 10px;
 }
 
-.product-container:hover {
-    box-shadow: 0 8px 16px 0;
+.categoria {
+    grid-row: 1 / 3;
 }
 
-.product-container h2 {
-    font-family: 'Staatliches', cursive;
+.barra h2 {
+    margin-left: 40px;
 }
-
-.product-container h3 {
-    font-family: sans-serif;
-    color: #ffc145;
-}
-
-.product-container img {
-    width: 300px;
-}
-
                                                      /* CONTACTO */
 
 .boxcontact {
@@ -363,7 +356,6 @@ input [type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
 }
-
 
 
 /* MEDIA RESPOSIVE */
