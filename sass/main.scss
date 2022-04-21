@@ -1,0 +1,50 @@
+/* NOSOTROS */
+
+@import 'variables';
+
+body {
+    background: white;
+    display: grid;
+    grid-template-rows: auto;
+    .bg {
+        width:100vw;
+    }
+    header {
+        .logo {                                                
+            display: flex;
+            justify-content: center;
+        }
+        .logo .size {
+            width: 60px;
+            padding: 10px 0px;
+            margin-right: 32px;
+        }
+        .navbar-nav {
+            font-size: $MismaMedida;
+            font-family: 'Anton', sans-serif; 
+        }
+    }
+    main {
+        .nosotros img {
+            width: 100%;
+        }
+        .contenido {
+            height: 220px;
+            width: 700px;
+            margin: 2rem auto;
+            margin-bottom: 300px;
+            border-radius: 15px;
+        }
+        .titulo h2 {
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Staatliches', cursive;
+            color: #93A603;
+        }
+        .articulo p {
+            padding-top: $MismaMedida;
+            font-size: $MismaMedida;
+            font-style:italic;
+        }
+    }
+}
