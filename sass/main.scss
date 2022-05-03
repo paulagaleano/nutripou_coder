@@ -1,3 +1,17 @@
+/* INDEX */
+body {
+    background-color: beige;
+    .container-fluid {
+        img {
+            max-width: 100px;
+        }
+        .navbar-nav {
+            font-size: 25px;
+            font-family: 'Anton', sans-serif; 
+            padding-left: 600px;
+        }
+    }
+}
 /* NOSOTROS */
 
 @import 'variables';
