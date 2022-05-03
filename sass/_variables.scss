@@ -1,3 +1,26 @@
 /* VARIABLES */
 
 $MismaMedida: 20px;
+
+/* MAP GET */
+
+$NOSOTROS: (
+    texto: center,
+    tamaño: 70px,
+    letra: 'Staatliches', cursive,
+    color: #93A603,
+);
+
+/* MIXIN */
+
+@mixin texto-estilos {
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* EXTEND */
+
+%redesimg {
+    width: 35px;
+    margin-left: 10px;
+} 

@@ -36,15 +36,14 @@ body {
             border-radius: 15px;
         }
         .titulo h2 {
-            text-align: center;
-            font-size: 70px;
-            font-family: 'Staatliches', cursive;
-            color: #93A603;
+            text-align: map-get($map: NOSOTROS, $key: texto);
+            font-size: map-get($map: NOSOTROS, $key: tamaño);
+            font-family: map-get($map: NOSOTROS, $key: letra);
+            color: map-get($map: NOSOTROS, $key: color );
         }
         .articulo p {
             padding-top: $MismaMedida;
-            font-size: $MismaMedida;
-            font-style:italic;
+            @include texto-estilos;
         }
     }
 }
